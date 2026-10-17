@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Harun M. — IT student and aspiring software developer. Explore skills, projects, and ways to connect." />
+  <title>Harun M. | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">H</span><span>HARUN<span class="muted">.DEV</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Let's connect <span>↗</span></a></nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> IT STUDENT · ASPIRING DEVELOPER</div>
+        <h1>Building ideas<br>into <span class="gradient-text">real solutions.</span></h1>
+        <p class="hero-intro">Hi, I'm <strong>Harun M.</strong> I enjoy solving problems with code and exploring how software, AI, and connected devices can make a difference.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span>↘</span></a><a class="button secondary" href="#contact">Get in touch</a></div>
+        <div class="hero-meta"><div><strong>C · Java · Kotlin</strong><span>Core programming skills</span></div><div><strong>Learning by building</strong><span>Projects & experimentation</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="portrait-shell"><img src="assets/harun-profile.png" alt="Professional circular portrait of Harun M." /></div>
+        <div class="float-card code-card"><span class="mini-icon">&lt;/&gt;</span><div><strong>Code. Learn. Improve.</strong><small>One step at a time.</small></div></div>
+        <div class="float-card skill-card"><span class="spark">✳</span><div><strong>Curious by nature</strong><small>Software · AI · Embedded</small></div></div>
+        <div class="hero-index">01 <span>— INTRODUCTION</span></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curiosity is where<br><span class="gradient-text">every project starts.</span></h2></div>
+      <div class="about-content"><p>I'm an Information Technology student developing my skills in programming and software development. I enjoy turning ideas into practical projects, understanding how systems work, and learning new tools through hands-on experimentation.</p><p>My interests include application development, AI-powered tools, embedded systems, and data-driven solutions. I value clear problem-solving, continuous learning, and building a strong technical foundation.</p><div class="about-note"><span>✦</span><p><strong>My current focus</strong><br>Strengthening programming fundamentals and developing project concepts into working, testable solutions.</p></div></div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading"><p class="eyebrow">MY TOOLKIT</p><h2>Skills I'm building<br><span class="gradient-text">with intention.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-tile"><div class="skill-symbol">C</div><h3>C Programming</h3><p>Problem-solving, logic, and fundamental programming concepts.</p><span class="skill-tag">Programming</span></article>
+        <article class="skill-tile"><div class="skill-symbol java">J</div><h3>Java</h3><p>Object-oriented programming, classes, exceptions, and threads.</p><span class="skill-tag">Programming</span></article>
+        <article class="skill-tile"><div class="skill-symbol kotlin">K</div><h3>Kotlin</h3><p>Android application development with Kotlin and Jetpack Compose.</p><span class="skill-tag">App development</span></article>
+        <article class="skill-tile"><div class="skill-symbol ai">✳</div><h3>AI & Prototyping</h3><p>Exploring AI-assisted applications and solution architecture.</p><span class="skill-tag">Exploring</span></article>
+        <article class="skill-tile"><div class="skill-symbol web">&lt;/&gt;</div><h3>Web Development</h3><p>Building responsive web experiences and learning deployment workflows.</p><span class="skill-tag">Developing</span></article>
+        <article class="skill-tile"><div class="skill-symbol embedded">⌁</div><h3>Embedded & IoT</h3><p>Exploring sensor-based systems, telemetry, and microcontrollers.</p><span class="skill-tag">Project interest</span></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="projects-head"><div class="section-heading"><p class="eyebrow">SELECTED WORK & CONCEPTS</p><h2>Ideas in <span class="gradient-text">progress.</span></h2></div><p class="section-aside">A mix of ongoing development and project concepts. Status labels distinguish work in progress from ideas being explored.</p></div>
+      <div class="projects-grid">
+        <article class="project-card featured"><div class="project-top"><span class="project-number">01 / APP DEVELOPMENT</span><span class="pill ongoing">Ongoing</span></div><div class="project-art art-chat"><div class="chat-window"><div class="chat-head"><span></span><span></span><span></span><b>AI ChatMate</b></div><div class="bubble left">Hello! How can I help?</div><div class="bubble right">Let's build something.</div><div class="chat-input">Message AI ChatMate <span>↑</span></div></div></div><h3>AI ChatMate</h3><p>An Android AI chatbot app concept using Kotlin and Jetpack Compose, with backend and AI API integration as development goals.</p><div class="tech-list"><span>Kotlin</span><span>Jetpack Compose</span><span>AI API</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">02 / PERSONAL AI</span><span class="pill concept">Concept / Development</span></div><div class="project-art art-jarvis"><div class="core-ring"><span>J</span></div><div class="ring-label label-one">VOICE</div><div class="ring-label label-two">AUTOMATION</div><div class="ring-label label-three">AI</div></div><h3>Personal AI Assistant</h3><p>A Jarvis-inspired desktop assistant concept focused on voice interaction, software control, and spoken responses.</p><div class="tech-list"><span>Python</span><span>Voice UI</span><span>OpenAI API</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">03 / AEROSPACE & IOT</span><span class="pill concept">Project design</span></div><div class="project-art art-cansat"><div class="satellite"><div class="sat-top"></div><div class="sat-body"><i></i><i></i><i></i></div><div class="sat-base"></div><div class="parachute"></div></div><div class="telemetry-line"></div></div><h3>Autonomous CanSat</h3><p>Design and development concept for descent monitoring, sensor data logging, telemetry, and safe recovery.</p><div class="tech-list"><span>Sensors</span><span>MCU</span><span>RF Telemetry</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">04 / GENERATIVE AI</span><span class="pill concept">Concept</span></div><div class="project-art art-resq"><div class="resq-cross">+</div><div class="resq-wave wave-one"></div><div class="resq-wave wave-two"></div><div class="resq-label">RESQGEN <span>AI</span></div></div><h3>ResQGen AI</h3><p>A multimodal emergency-response copilot concept designed to explore AI-assisted interpretation and response guidance.</p><div class="tech-list"><span>Generative AI</span><span>Multimodal</span><span>Prototype</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">05 / SMART MAINTENANCE</span><span class="pill concept">Concept</span></div><div class="project-art art-wind"><div class="wind-turbine"><i></i><i></i><i></i><b></b></div><div class="wind-data"><span>VIBRATION <b>↗</b></span><span>TEMPERATURE <b>••</b></span><span>TELEMETRY <b>↔</b></span></div></div><h3>WindBlade-Sync</h3><p>An IoT and analytics concept for monitoring wind-turbine conditions and exploring predictive maintenance.</p><div class="tech-list"><span>IoT</span><span>ESP32 / Arduino</span><span>Analytics</span></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-number">06 / CYBERSECURITY AI</span><span class="pill concept">Hackathon concept</span></div><div class="project-art art-voice"><div class="voice-shield">✓</div><div class="soundwave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="voice-caption">VOICE AUTHENTICITY</div></div><h3>Voice-Cloning Attack Detection</h3><p>An AI-based concept to detect and help prevent impersonation attacks using cloned voices in real time.</p><div class="tech-list"><span>AI</span><span>Audio Analysis</span><span>Security</span></div></article>
+      </div>
+      <p class="disclaimer">Project descriptions explain current concepts and goals; they do not imply completed implementation, measured results, or awards.</p>
+    </section>
+
+    <section class="section approach-section"><div class="section-heading"><p class="eyebrow">HOW I WORK</p><h2>Learn it. Build it.<br><span class="gradient-text">Make it better.</span></h2></div><div class="approach-steps"><div><span>01</span><h3>Understand</h3><p>Break a problem into clear, manageable parts.</p></div><div><span>02</span><h3>Experiment</h3><p>Learn through coding, testing, and iteration.</p></div><div><span>03</span><h3>Improve</h3><p>Refine the solution and document what I learn.</p></div></div></section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-panel">
+        <div class="contact-copy-column">
+          <p class="eyebrow">HAVE AN IDEA?</p>
+          <h2>Let's make<br><span class="gradient-text">something useful.</span></h2>
+          <p class="contact-copy">I'm interested in learning, collaborating, and exploring opportunities to grow as a developer.</p>
+          <a class="button primary email-direct" href="mailto:harunm2294@gmail.com?subject=Portfolio%20enquiry">Email me: harunm2294@gmail.com <span>↗</span></a>
+          <p class="edit-note">Prefer email? This button opens your email app.</p>
+          <div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+        </div>
+        <div class="contact-form-wrap">
+          <h3>Send me a message</h3>
+          <p class="form-intro">Fill in the form and your message will be sent to my inbox.</p>
+          <form id="contact-form">
+            <label for="contact-name">Your name</label>
+            <input id="contact-name" name="from_name" type="text" autocomplete="name" maxlength="100" required placeholder="Enter your name">
+            <label for="contact-email">Your email</label>
+            <input id="contact-email" name="reply_to" type="email" autocomplete="email" maxlength="254" required placeholder="you@example.com">
+            <label for="contact-subject">Subject <span class="optional">(optional)</span></label>
+            <input id="contact-subject" name="subject" type="text" maxlength="150" placeholder="What is this about?">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" maxlength="5000" required placeholder="Write your message..."></textarea>
+            <button class="button primary send-button" id="contact-submit" type="submit">Send message <span>↗</span></button>
+            <p id="contact-status" class="contact-status" role="status" aria-live="polite"></p>
+            <p class="form-privacy-note">Please don't include passwords or other sensitive information.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">H</span><span>HARUN<span class="muted">.DEV</span></span></a><p>Designed to grow with every project.</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
